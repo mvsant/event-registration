@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6014e48ac3a11210c5ac7132b4013154" extends="task" label="Registration" max_length="40" name="x_1555105_event_re_registration" type="collection">
+        <element label="email" max_length="100" name="email" type="string"/>
+        <element label="Full Name" max_length="40" name="full_name" type="string"/>
+        <element label="Event" max_length="32" name="event" reference="x_1555105_event_re_event" type="reference"/>
+    </element>
+</database>

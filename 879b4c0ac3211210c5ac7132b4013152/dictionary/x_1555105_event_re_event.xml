@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b1edcc0ec3211210c5ac7132b4013101" label="Event" max_length="40" name="x_1555105_event_re_event" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="500" name="description" type="string"/>
+        <element attributes="encode_utf8=false" label="Location" max_length="32" name="location" reference="imp_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Transmission link" max_length="1024" name="transmission_link" type="url"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Name" max_length="100" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="End Date" max_length="40" name="end_date" type="glide_date_time"/>
+        <element label="Seats" max_length="40" name="seats" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Start Date" max_length="40" name="start_date" type="glide_date_time"/>
+        <index name="index">
+            <element name="location"/>
+        </index>
+    </element>
+</database>
